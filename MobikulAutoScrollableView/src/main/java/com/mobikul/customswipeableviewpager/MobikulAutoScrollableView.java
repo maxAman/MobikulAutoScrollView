@@ -140,7 +140,7 @@ public class MobikulAutoScrollableView extends RelativeLayout {
         return myCustomViewPager;
     }
 
-    public void setEnabledPageCounter() {
+    public void showBullets() {
         dotList = new ImageView[myCustomViewPager.getAdapter().getCount()];
         for (int i = 0; i < myCustomViewPager.getAdapter().getCount(); i++) {
             ImageView dotImage = new ImageView(mContext);
